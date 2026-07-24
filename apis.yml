@@ -1,7 +1,25 @@
 aid: clutch-learning
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clutch-learning.png
 name: Clutch Learning
-description: Clutch Learning is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Clutch Learning (Clutch Prep) was a Miami-based education-technology startup founded in 2011
+  that helped more than two million college students learn through thousands of short-form, topic-based
+  video tutorials and practice problems across subjects such as chemistry, physics, biology, accounting,
+  and calculus. Backed by 500 Global (500 Startups), the company was acquired by Pearson in 2022 and folded
+  into the Pearson+ study platform, where the offering now lives as Pearson Channels. The standalone
+  clutchprep.com product is no longer independently operated. The domain 301-redirects to
+  pearson.com/channels, and the company exposes no independent developer portal, public API, SDKs, or
+  event surface. This profile is retained in the API Evangelist network as an acquired-company record.
 url: https://raw.githubusercontent.com/api-evangelist/clutch-learning/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: pearson
+x-acquired-year: 2022
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- EdTech
+- Test Prep
+- Video Learning
+- Higher Education
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/clutch-learning-domain-security.yml
 - type: Website
   url: https://clutchprep.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
