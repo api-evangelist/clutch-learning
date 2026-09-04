@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://clutchprep.com', status: 301, note: 'declared website redirects to https://www.pearson.com/channels?CEP=Clutch_SEO — a different registrable domain (clutchprep.com -> pearson.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clutch-learning.png
 name: Clutch Learning
 description: Clutch Learning (Clutch Prep) was a Miami-based education-technology startup founded in 2011
